@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD APP</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body style="background-color: blueviolet;" class="container">
+    
+
+    <h1 style="text-align: center">THE BEST TO DO IT</h1>
+
+    <div style="background-color: blueviolet ;" id="new-player" class="card">
+        <h5 style="text-align: center;">Add the best <b>MLG PLAYERS</b> to this list!</h5><br>
+        <input type="text" placeholder="GamerTag" id="player-first-name" style="display: inline;" class="form-control">
+        <button type="button" id="add-new-player" class="btn btn-success form-control"> Add eSports Player</button>
+    </div>
+
+    <div id="players-list"></div>
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="Player.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
